@@ -1,5 +1,3 @@
-import java.util.*;
-
 import helpers.Alphabet;
 import helpers.StateSet;
 import helpers.TransitionFunction;
