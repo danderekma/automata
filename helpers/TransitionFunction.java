@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.Map.Entry;
 
 public class TransitionFunction {
-    private Map<List<String>, String> delta;
+    private final Map<List<String>, String> delta;
 
     public TransitionFunction(StateSet q, Alphabet sigma, String... mappings) throws Exception {
         delta = new HashMap<>();

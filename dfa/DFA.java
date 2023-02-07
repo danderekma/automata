@@ -5,11 +5,11 @@ import helpers.StateSet;
 import helpers.TransitionFunction;
 
 public class DFA {
-    private StateSet q;
-    private Alphabet sigma;
-    private String startState;
-    private StateSet acceptStates;
-    private TransitionFunction delta;
+    private final StateSet q;
+    private final Alphabet sigma;
+    private final String startState;
+    private final StateSet acceptStates;
+    private final TransitionFunction delta;
 
     public DFA(StateSet q, Alphabet sigma, TransitionFunction delta, String startState,
             StateSet acceptStates) throws Exception {
